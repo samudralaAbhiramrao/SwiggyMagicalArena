@@ -8,3 +8,6 @@ coverage
 
 # Dependency directories
 node_modules/
+
+# Distribution folder for Typescript
+dist/

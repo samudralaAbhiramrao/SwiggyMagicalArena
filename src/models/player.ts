@@ -1,10 +1,9 @@
-export class player {
+export class Player {
   public health: number;
-  public readonly strength: number;
-  public readonly attack: number;
-  public readonly name: string; 
+  public  strength: number;
+  public  attack: number;
+  public  name: string; 
 
-  // Used readonly because its cannot be changed in future as compared to health
 
   constructor(health: number, strength: number, attack: number, name: string) {
     this.health = health;
