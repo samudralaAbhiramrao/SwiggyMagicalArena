@@ -1,8 +1,8 @@
 export class Player {
   public health: number;
-  public  strength: number;
-  public  attack: number;
-  public  name: string; 
+  public readonly strength: number;
+  public  readonly attack: number;
+  public  readonly name: string; 
 
 
   constructor(health: number, strength: number, attack: number, name: string) {
